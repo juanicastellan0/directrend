@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  position: relative;
+  background: #002b49;
+  color: #ECECEC;
+
 }
 
 .App-logo {
@@ -14,14 +18,95 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #001423;
+  width: 100%;
+  height: 50px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.Date-info {
+  background-color: #002f52;
+  padding: 8px;
+  margin: 60px;
+  font-size: calc(10px + 1vmin);
+}
+
+.Column-header {
+  background-color: #001d32;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Column-first {
+  padding: 30px;
+  font-size: calc(12px + 2vmin);
+}
+
+.Column-name {
+  padding: 23px;
+  font-size: calc(8px + 2vmin);
+}
+
+.Coin {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cell-first {
+  padding: 25px;
+}
+
+.Symbol-price {
+  padding: 25px;
+  font-size: calc(12px + 2vmin);
+}
+
+.Cell {
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Coin-logo {
+  height: 80px;
+  padding: 5px;
+}
+
+.Trend {
+  height: 40px;
+  margin: 10px;
+  background-color: #00af3d;
+  border-radius: 50px;
+}
+
+.Di-pos {
+  color: #00af3d;
+}
+
+.Di-neg {
+  color: #af0000;
+  font-size: calc(10px + 2vmin);
+}
+
+.Adx {
+  font-size: calc(14px + 2vmin);
+}
+
+hr {
+  border-color: #002e50;
+  margin: 0;
 }
 
 .App-link {
